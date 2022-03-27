@@ -1,0 +1,57 @@
+body{
+    background-color: red;
+    text-align: center;
+}
+.logo > img{
+    float: left;
+}
+h2{
+    color: rgba(12, 12, 12, 0.973);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.corona{
+    text-align: center;
+    padding-right: 50px;
+    padding-top: 15px;
+}
+p {
+    padding-right: 15px;
+    font-weight: bold;
+    font-size: 2rem;
+}
+span {
+    color: rgb(23, 7, 252);
+}
+.tipo-1{
+    color: black;
+}
+#botao-1{
+    background-color: rgb(245, 245, 247);
+    border-radius: 3px;
+}
+.botao-1 > a:hover{
+    color: rgb(15, 15, 15);
+    background-color: rgb(29, 5, 248) ;
+}
+a{
+    text-decoration: none;
+}
+.virus{
+    color: rgba(21, 21, 179, 0.966);
+}
+.numero{
+    appearance: none;
+    background: red;
+    padding-right: 50px;
+    padding: 5px 20px;
+    color: rgb(10, 10, 10);
+    border-radius: 4px;
+    transition: all 0.3s ease 0s;    
+}
+.tel-1 {
+   margin-right: 1px;
+}
+
+footer{
+    text-decoration: none;
+}
