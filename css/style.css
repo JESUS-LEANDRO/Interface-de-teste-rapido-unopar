@@ -1,3 +1,6 @@
+*{
+    color:blue;
+}
 body{
     background-color: red;
     text-align: center;
@@ -11,7 +14,7 @@ h2{
 }
 .corona{
     text-align: center;
-    padding-right: 70px;
+    padding-right: 90px;
     padding-top: 15px;
 }
 p {
@@ -32,12 +35,14 @@ span {
 .botao-1 > a:hover{
     color: rgb(15, 15, 15);
     background-color: rgb(29, 5, 248) ;
+    padding: 0px 17px;
 }
 a{
     text-decoration: none;
+    
 }
 .virus{
-    color: rgba(21, 21, 179, 0.966);
+    color: rgba(13, 13, 14, 0.966);
 }
 .numero{
     appearance: none;
