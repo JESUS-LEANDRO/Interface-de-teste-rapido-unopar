@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Teste rapido</title>
+    <title>Teste Rapido</title>
     <link rel="shortcut icon" href="imagens-logo/sus-logo.svg" type="image/x-icon">
 </head>
 <body>
@@ -13,40 +13,45 @@
         <img src="imagens-logo/sus-logo.svg" alt="" height="70" width="90">
     </div>
     <div class="corona">
-        <h2 class="virus">
+        <h1 class="virus">
             C@R@NAVIRUS 
-        </h2>
+        </h1>
     </div>
     <div>
         <p>Cadastre-se</p>
     <div>
     </div>
-        <form action=""><br>
-            <div class="input"> Nome completo
-                <br><input required type="Nome" placeholder="Ex: João Silva">
-                </div><br>
-                <div class="input-2">Email
-                <br><input required type="Email" placeholder="Ex: Joãosilva@teste.com">
-            </div>
+        <form  class="nome" action=""><br>
+                <article class="1">
+                    <div class="input"> Nome completo
+                        <br><input required type="Nome" placeholder="Ex: João Silva">
+                        </div><br>
+                        <div class="input-2">Email
+                        <br><input required type="Email" placeholder="Ex: Joãosilva@teste.com">
+                    </div>
+                </article>
             <form action="">
-                <div class="numero">
-                 <div class="select">
-                 <label for="Phone-1"><br> DDD</label>
-                  <br><select class="tel-1" name="scheduleCustomerPhoneDdi">
-                      <option value="71">71</option>
-                      <option value="75">75</option>
-                      <option value="79">79</option>
-                      <option value="21">21</option>
-                      <option value="11">11</option>
-                      <option value="73">73</option>
-                      <option value="44">44</option>
+                <article class="2">
+                    <div class="numero">
+                     <div class="select">
+                     <label for="Phone-1"><br> DDD</label>
+                      <br><select class="tel-1" name="scheduleCustomerPhoneDdi">
+                          <option value="71">71</option>
+                          <option value="75">75</option>
+                          <option value="79">79</option>
+                          <option value="21">21</option>
+                          <option value="11">11</option>
+                          <option value="73">73</option>
+                          <option value="44">44</option>
+                </article>
                   </select>
                       <label for="phone"><br> Telefone
                          <br> <input placeholder="Digite telefone">
                       </label>
                   </select><br>
                   <div class="input"> Endereço
-                    <br><input required type="endereço" placeholder="Ex: CEP"><br>Cidade <br><input required type="endereço" placeholder="Ex: Salvador">
+                    <br><input required type="endereço" placeholder="Ex: CEP"><br>Cidade <br>
+                    <input required type="endereço" placeholder="Ex: Salvador">
                     </div>
                     <label for="Phone-1"> Estado</label><br>
                   <select class="tel-1" name="scheduleCustomerPhoneDdi">
@@ -62,35 +67,77 @@
             </div><br>
         </form>
     </div>
-    <div>
-        <h2>Tipo Sanguineo</h2>
-        <div class="suport">
-            <div class="remember">
-              <span><input type="checkbox" style="margin: 0px; padding: 0px; height:13px"></span>
-              <span class="tipo"> A </span> <span><input type="checkbox" style="margin: 0px; padding: 0px; height:13px"></span>
-              <span class="tipo"> B </span><span><input type="checkbox" style="margin: 0px; padding: 0px; height:13px"></span>
-              <span class="tipo"> A/B </span><span><input type="checkbox" style="margin: 0px; padding: 0px; height:13px"></span>
-              <span class="tipo"> O </span>
-             </div>
+    <article >
+        <div class="tipo-sanguineo">
+            <h2>Tipo Sanguineo</h2>
+            <div class="suport">
+                <form>
+                    <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op1"> A
+                    <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op2"> B
+                    <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op1"> A/B
+                    <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op2"> O
+                    </form>
+                 </div>
+          </article>
+        </div>
+       <div class="genero">
+           <article> 
+            <h2>Gênero</h2>
+            <div class="gender-group">
+                            <div class="gender-input">
+                                <input id="female" type="radio" name="gender">
+                                <label for="female">Feminino</label>
+                            </div>
+                            <div class="gender-input">
+                                <input id="male" type="radio" name="gender">
+                                <label for="male">Masculino</label>
+                            </div>
+                            <div class="gender-input">
+                                <input id="others" type="radio" name="gender">
+                                <label for="others">Outros</label>
+                            </div>
+                            <div class="gender-input">
+                                <input id="none" type="radio" name="gender">
+                                <label for="none">Prefiro não dizer</label>
+                            </div>
+                   </article>
+                   </div>
+            <div class="fator-rh">
+            <article class="5">
+            <h2>Fator Rh</h2>
+            <form>
+                <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op1"> Negativo
+                <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op2"> Positivo
+            </article>
+           </div>
+           <article class="formulario-1">
+               <div>
+                <h2 class="vacina">Marca &emsp;&emsp;&emsp;  &emsp;&emsp; &emsp;&emsp; Vacinas</h2>
+               <form class="formulario">
+                <label class="tipo-vacina for">
+                    <input placeholder="Digite vacina"><br>
+                    <input placeholder="Digite vacina"><br>
+                    <input placeholder="Digite vacina"><br>
+                    <input placeholder="Digite vacina"><br>
+                </label>
+                &emsp;&emsp;&emsp;&emsp;<INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op1"> 1° Dose <br>
+                &emsp;&emsp;&emsp;&emsp;<INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op2"> 2° Dose <br>
+                &emsp;&emsp;&emsp;&emsp;<INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op1"> 3° Dose <br>
+                &emsp;&emsp;&emsp;&emsp;<INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op2"> Nenhuma
+                </form>
+           </article>
     </div>
-    <div>
-        <h2>Fator Rh</h2>
-        <span><input type="checkbox" style="margin: 0px; padding: 0px; height:13px"></span>
-        <span class="tipo">Positivo</span>
-        <span><input type="checkbox" style="margin: 0px; padding: 0px; height:13px"></span>
-        <span class="tipo">Negativo</span>
-    </div>
-    <div>
-        <h2>Tipo de Teste</h2>
-        <span><input type="checkbox" style="margin: 0px; padding: 0px; height:13px"></span>
-        <span class="tipo">Antigeno nasal</span>
-        <span><input type="checkbox" style="margin: 0px; padding: 0px; height:13px"></span>
-        <span class="tipo">Sorologia</span>
-    </div><br>
-    <span><input type="checkbox" style="margin: 0px; padding: 0px; height:13px"></span>
-    <span class="tipo-1">Li e concordo com a Política de Privacidade e com os Termos Gerais de Uso.<br><br>
+    <div class="tipo-teste">
+        <article>
+            <h2>Tipo de Teste</h2>
+            <form class="">
+                <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op1"> Sorologia
+                <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op2"> Antigeno nasal
+                </form>
+        </article>
+    <input type="checkbox" name="" id="">Li e concordo com a Política de Privacidade e com os Termos Gerais de Uso.<br><br>
         <button class="botao-1">
-            <a href="#">Enviar</a>
+            <a href="#">Cadastrar</a>
         </button>
     </span>
     <footer>

@@ -3,24 +3,40 @@
 }
 body{
     background-color: red;
+}
+.nome{
     text-align: center;
 }
 .logo > img{
     float: left;
 }
-h2{
+.gender-group{
+    display: flex;
+}
+
+
+h1{
     color: rgba(12, 12, 12, 0.973);
     font-family: Arial, Helvetica, sans-serif;
+    padding-left: 25px;
 }
 .corona{
     text-align: center;
-    padding-right: 65px;
+    padding-right: 60px;
     padding-top: 15px;
+    text-align: center;
 }
 p {
     padding-right: 15px;
     font-weight: bold;
     font-size: 2rem;
+    text-align: center;
+}
+article{
+    padding: 5px;
+    margin: 10px;
+    background-color: rgb(241, 45, 23);
+    border-radius: 7px;
 }
 span {
     color: rgb(23, 7, 252);
@@ -38,8 +54,24 @@ span {
     padding: 0px 17px;
 }
 a{
-    text-decoration: none;
-    
+    text-decoration: none;   
+}
+.tipo-sanguineo{
+    text-align: center;
+}
+.genero{
+    text-align: center;
+}
+.fator-rh{
+    text-align: center;
+}
+.tipo-teste{
+    text-align: center;
+}
+.tipo-vacina{
+    float: left;
+    justify-content: right;
+    padding-bottom: 5px;
 }
 .virus{
     color: rgba(13, 13, 14, 0.966);
@@ -59,4 +91,5 @@ a{
 
 footer{
     text-decoration: none;
+    color: black;
 }
