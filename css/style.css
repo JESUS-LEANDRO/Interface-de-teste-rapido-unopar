@@ -47,6 +47,7 @@ span {
 #botao-1{
     background-color: rgb(245, 245, 247);
     border-radius: 3px;
+    width: 50px;
 }
 .botao-1 > a:hover{
     color: rgb(15, 15, 15);
@@ -75,6 +76,9 @@ a{
 }
 .virus{
     color: rgba(13, 13, 14, 0.966);
+}
+.gender-group{
+    text-align: center;
 }
 .numero{
     appearance: none;
