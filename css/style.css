@@ -44,15 +44,17 @@ span {
 .tipo-1{
     color: black;
 }
+button{
+    width: 200px;
+    padding: 10px;
+    text-decoration: none;
+}
 #botao-1{
-    background-color: rgb(245, 245, 247);
     border-radius: 3px;
-    width: 50px;
 }
 .botao-1 > a:hover{
-    color: rgb(15, 15, 15);
-    background-color: rgb(29, 5, 248) ;
     padding: 0px 17px;
+    width: 200px;
 }
 a{
     text-decoration: none;   
@@ -78,7 +80,10 @@ a{
     color: rgba(13, 13, 14, 0.966);
 }
 .gender-group{
-    text-align: center;
+    margin-left: 60px;
+}
+.vacina{
+    margin-left: 60px;
 }
 .numero{
     appearance: none;
